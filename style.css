@@ -48,6 +48,7 @@ body {
 .container {
 	max-width: 1000px;
 	margin: 0 auto;
+	position: relative;
 }
 .margin-75 {
 	margin: 75px auto;
@@ -56,13 +57,6 @@ body {
 	padding: 75px 0;
 }
 /* hero */
-.hero-box {
-	position: relative;
-	height: 713px;
-	font-size: 13px;
-	font-weight: 300;
-	color: #fff;
-}
 .hero {
 	height: 713px;
 	background-image: url("http://i.imgur.com/Vu2Wryo.png");
@@ -71,11 +65,13 @@ body {
 }
 .mobile-picture {
 	position: absolute;
-	top: 230px;
 	right: 0;
+	bottom: 245px;
 }
 .hero-text {
-	padding: 270px 20px 0 20px;
+	padding: 320px 20px 0 20px;
+	color: #fff;
+
 }
 .hero-text h1 {
 	margin-bottom: 5px;
@@ -393,25 +389,26 @@ footer ul li {
 	padding: 2px 0;
 }
 input:first-of-type {
-	padding: 5px;
+	padding: 10px;
 	border: none;
 	font-size: 20px;
+	height: 43px;
+	float: left;
 }
 input:last-of-type {
 	background: #82ca9c;
 	color: #fff;
-	height: 33px;
-	width: 40px;
-	position: relative;
-	top: 3px;
-	right: 5px;
+	height: 43px;
+	width: 50px;
 	border: none;
 	font-size: 23px;
+	float: left;
 }
 input:last-of-type:hover {
 	background: #60ba7a;
 }
 .small-p {
+	clear: both;
 	font-size: 12px;
 	color: #57697f;
 	padding-top: 20px;
@@ -446,9 +443,6 @@ input:last-of-type:hover {
 		text-align: center;
 		padding-left: 0;
 	}
-	.mobile-picture {
-		display: none;
-	}
 	.start-right {
 		padding-top: 40px;
 	}
@@ -458,9 +452,11 @@ input:last-of-type:hover {
 	}
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1000px) {
 	.mobile-picture {
-		display: none;
+		position: static;
+		transform: scale(0.8);
+		max-width: 100%;
 	}
 }
 
@@ -499,17 +495,11 @@ input:last-of-type:hover {
 	.padding-10 {
 		padding: 0 10px;
 	}
-	
-	/* !!!!!!!!!! */
-	input:last-of-type {
-		height: 34px;
-		top: 0;
-	}
 }
 
 @media (max-width: 420px) {
 	input:first-of-type {
-		max-width: 180px;
+		width: 180px;
 	}
 	.small-p {
 		width: 170px;
@@ -538,6 +528,9 @@ input:last-of-type:hover {
 		padding-top: 180px;
 	}
 	input:first-of-type {
-		max-width: 150px;
+		width: 145px;
+	}
+	input:last-of-type {
+		width: 45px;
 	}
 }
