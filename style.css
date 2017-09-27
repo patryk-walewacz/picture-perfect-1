@@ -452,7 +452,7 @@ input:last-of-type:hover {
 	}
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1120px) {
 	.mobile-picture {
 		position: static;
 		transform: scale(0.8);
@@ -494,6 +494,39 @@ input:last-of-type:hover {
 	}
 	.padding-10 {
 		padding: 0 10px;
+	}
+	.layer, .fa-heart {
+		display: none;
+	}
+	.tile-1:hover {
+	background: #f5989d;
+	}
+	.tile-2:hover {
+		background: #615f7d;
+	}
+	.tile-4:hover {
+		background: #bd8cbf;
+	}
+	.tile-6:hover {
+		background: #82ca9c;
+	}
+	.tiles a:hover {
+		text-decoration: none
+	}
+	.tiles h2 {
+		font-size: 24px;
+	}
+	.tiles p {
+		line-height: 100%;
+	}
+	.jumbotron h1 {
+		font-size: 35px;
+	}
+	.purchase [class*="col-"]:hover .inner-col {
+		background: #f6f7fa;
+	}
+	.purchase [class*="col-"]:hover .small-btn {
+		background: #e1e1e1;
 	}
 }
 
