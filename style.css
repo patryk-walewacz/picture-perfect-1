@@ -252,6 +252,15 @@ body {
 	background-position: center;
 	color: #fff;
 }
+.jumbotron>.container {
+	height: 713px;
+}
+.jumbotron-text {
+	position: absolute;
+	left: 20px;
+	bottom: 30px;
+	width: 70%;
+}
 .jumbotron h1 {
 	font-size: 40px;
 	font-weight: 300;
@@ -267,10 +276,6 @@ body {
 	color: #fff;
 	vertical-align: text-bottom;
 	transition: 0.2s;
-}
-.jumbotron .row {
-	padding: 360px 20px 0 20px;
-	
 }
 .jumbotron a:hover {
 	text-decoration: underline;
@@ -483,9 +488,6 @@ input:last-of-type:hover {
 	.details [class*="col-"] {
 		padding: 20px 10px;
 	}
-	.jumbotron .row {
-		padding-top: 280px;
-	}
 	footer .col-4 {
 		padding-right: 15px;
 	}
@@ -514,7 +516,7 @@ input:last-of-type:hover {
 		line-height: 100%;
 	}
 	.jumbotron h1 {
-		font-size: 35px;
+		font-size: 30px;
 	}
 	.purchase [class*="col-"]:hover .inner-col {
 		background: #f6f7fa;
@@ -531,6 +533,9 @@ input:last-of-type:hover {
 	.small-p {
 		width: 170px;
 	}
+	.jumbotron h1 {
+		font-size: 25px;
+	}
 }
 
 @media (max-width: 349px) {
@@ -545,9 +550,7 @@ input:last-of-type:hover {
 	footer .col-4 h5 {
 		margin-bottom: 10px;
 	}
-	.jumbotron .row {
-		padding-top: 180px;
-	}
+
 	input:first-of-type {
 		width: 145px;
 	}
