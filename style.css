@@ -50,12 +50,7 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
-.section-margin {
-	margin: 75px auto;
-}
-.section-padding {
-	padding: 75px 0;
-}
+
 /* hero */
 .hero {
 	height: 713px;
@@ -84,6 +79,9 @@ body {
 }
 
 /* start-something */
+.start-something {
+	margin: 75px 0;
+}
 .start-something [class*="col-"] {
 	padding: 0 15px;
 }
@@ -224,6 +222,9 @@ body {
 }
 
 /* details */
+.details {
+	margin: 75px 0;
+}
 .details h1 {
 	font-size: 35px;
 	font-weight: 300;
@@ -287,6 +288,7 @@ body {
 
 /* reasons */ 
 .reasons {
+	padding: 75px 0;
 	background: #82ca9c;
 	color: #fff;
 }
@@ -309,6 +311,7 @@ body {
 
 /* purchase */
 .purchase {
+	padding: 75px 0;
 	background: #f6f7fa;
 }
 .purchase [class*="col-"] {
@@ -362,6 +365,7 @@ body {
 
 /* footer */
 footer {
+	padding: 75px 0;
 	background: #192431;
 	color: #fff;
 }
@@ -435,12 +439,6 @@ input:last-of-type:hover {
 	.container {
 		max-width: 90%;
 	}
-	.section-margin {
-		margin: 50px auto;
-	}
-	.section-padding {
-		padding: 50px 0;
-	}
 	.hero-text {
 		text-align: center;
 		padding-left: 0;
@@ -478,12 +476,6 @@ input:last-of-type:hover {
 
 	.container {
 		max-width: 90%;
-	}
-	.section-margin {
-		margin: 30px auto;
-	}
-	.section-padding {
-		padding: 30px 0;
 	}
 	.details [class*="col-"] {
 		padding: 20px 10px;
