@@ -136,7 +136,7 @@ body {
 	position: absolute;
 	bottom: 40px;
 	z-index: 50;
-	transition: 0.2s;
+	transition: .2s;
 }
 .tiles a:hover {
 	text-decoration: underline;
@@ -157,7 +157,7 @@ body {
 	right: 25px;
 	font-size: 16px;
 	opacity: 0;
-	transition: 0.2s;
+	transition: .3s;
 	z-index: 50;
 }
 .layer {
@@ -169,7 +169,7 @@ body {
 	right: 0;
 	opacity: 0;
 	z-index: 20;
-	transition: 0.2s;
+	transition: .3s;
 }
 .tiles [class*="col-"]:hover .layer {
 	opacity: 1;
@@ -179,14 +179,14 @@ body {
 }
 .tile-1 {
 	background: #f5989d;
-	transition: 0.2s;
+	transition: .3s;
 }
 .tile-1:hover {
 	background: #d3767b;
 }
 .tile-2 {
 	background: #615f7d;
-	transition: 0.2s;
+	transition: .3s;
 }
 .tile-2:hover {
 	background: #403d5b;
@@ -198,7 +198,7 @@ body {
 }
 .tile-4 {
 	background: #bd8cbf;
-	transition: 0.2s;
+	transition: .3s;
 }
 .tile-4:hover {
 	background: #ab6aad;
@@ -210,7 +210,7 @@ body {
 }
 .tile-6 {
 	background: #82ca9c;
-	transition: 0.2s;
+	transition: .3s;
 }
 .tile-6:hover {
 	background: #60aa7a;
@@ -276,7 +276,7 @@ body {
 	text-decoration: none;
 	color: #fff;
 	vertical-align: text-bottom;
-	transition: 0.2s;
+	transition: .2s;
 }
 .jumbotron a:hover {
 	text-decoration: underline;
@@ -319,6 +319,7 @@ body {
 }
 .inner-col {
 	padding: 30px 40px;
+	transition: .2s;
 }
 .purchase button {
 	border: none;
@@ -332,6 +333,7 @@ body {
 	background: #e1e1e1;
 	padding: 5px 15px;
 	border-radius: 3px;
+	transition: .2s;
 
 }
 .purchase h2 {
