@@ -55,17 +55,21 @@ body {
 	background-image: url("http://i.imgur.com/Vu2Wryo.png");
 	background-size: cover;
 	background-position: center;
-	padding-top: 47px;
+	padding-top: 77px;
 }
 .hero a {
 	text-decoration: none;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin-left: 20px;
 }
 figure {
 	height: 53px;
-	margin-left: 20px;
 	width: 105px;
 	border-radius: 4px;
 	transition: .2s;
+	margin: 0;
 }
 figure img:last-of-type {
 	padding: 17.5px 0;
@@ -75,7 +79,7 @@ figure:hover {
 	opacity: 0.6;
 }
 .hero-text {
-	padding: 220px 20px 0 20px;
+	padding: 190px 20px 0 20px;
 	color: #fff;
 }
 .hero-text h1 {
@@ -530,6 +534,7 @@ input:last-of-type:hover {
 	.mobile-picture {
 		position: static;
 		max-width: 100%;
+		transform: initial;
 	}
 	.inner-col {
 		padding: 30px 10px;
